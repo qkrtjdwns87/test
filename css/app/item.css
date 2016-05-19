@@ -1,0 +1,259 @@
+/* 제품상세페이지 - 이미지롤링 */
+body{letter-spacing:-0.5px;}
+
+/* item_view 제품상세페이지 - 공유페이지 TOP 2016-04-28 */
+.swiper-container_share{position:relative;width:100%;overflow:hidden;}
+	.swiper-container_share img{width:100%;}
+	.swiper-pagination_share{width:100%;position:absolute;bottom:8px;z-index:1;text-align:center;}
+	.swiper-pagination_share .swiper-pagination-bullet{width:14px !important;height:14px !important;margin:0 5px;background:#f4f2f0;opacity:1;}
+	.swiper-pagination_share .swiper-pagination-bullet-active{background:#aa3230 !important;}
+
+#item_view_share .title_box{padding:10px;height:106px;position:relative;}
+	#item_view_share .title_box p.title{font-size:15px;color:#222;font-weight:bold;padding-bottom:5px;}
+	#item_view_share .title_box .icn_sale{display:inline-block;height:12px;line-height:12px;font-size:12px;color:#fff;background:#af3030;padding:2px 4px;border-radius:3px;}
+	#item_view_share .title_box .icn{width:12px;display:inline-block;}
+	#item_view_share .title_box .won{display:inline-block;font-size:15px;color:#a40f0f;font-weight:bold;}
+	#item_view_share ul.sns_share{width:140px;overflow:hidden;margin-top:16px;}
+		#item_view_share ul.sns_share li{width:31px;float:left;margin-right:5px;}
+			#item_view_share ul.sns_share li img{width:100%;}
+	#item_view_share p.soldout{width:55px;position:absolute;right:10px;top:38px;}
+		#item_view_share p.soldout img{width:100%;}
+
+/* craftshop 공유페이지 2016-04-28 */
+#craftshop_view_share{position:relative;}
+	#craftshop_view_share img{width:100%;}
+	#craftshop_view_share .photo{width:100%;text-align:center;margin-top:-30px;}
+		#craftshop_view_share .photo img{width:78px;height:78px;border-radius:50px;}
+	#craftshop_view_share .title{font-size:15px;color:#222;font-weight:bold;text-align:center;margin:5px 0;}
+		#craftshop_view_share .icn_best{display:inline-block;height:12px;line-height:12px;font-size:12px;color:#fff;background:#af3030;padding:2px 4px;border-radius:3px;margin:0 3px;}
+		#craftshop_view_share .icn_today{display:inline-block;height:12px;line-height:12px;font-size:12px;color:#fff;background:#af3030;padding:2px 4px;border-radius:3px;}
+	#craftshop_view_share .text{padding:10px 35px;margin:0 10px;background:#f6f6f6 url(/images/app/event/icn_arrow.png) no-repeat 98% center;}
+		#craftshop_view_share .text a{width:100%;height:100%;display:block;font-size:15px;color:#404040;line-height:20px;text-align:center;}
+	#craftshop_view_share ul.sns_share{width:72px;overflow:hidden;margin:9px auto;}
+		#craftshop_view_share ul.sns_share li{width:31px;float:left;text-align:center;margin-right:5px;}
+
+#craftshop_share_tab{width:100%;position:relative;overflow:hidden;background:url(/images/app/share/bg_tab.gif) left top repeat-x; -webkit-background-size:2px 35px;
+	background-size:2px 35px;}
+	#craftshop_share_tab .cate{height:20px;margin:10px auto 0;background:url(/images/app/order/bg_tab_cate.png) no-repeat left top;}
+	#craftshop_share_tab .cate ul{width:100%;overflow:hidden;}
+	#craftshop_share_tab .cate ul li{width:50%;height:23px;float:left;text-align:center;}
+	#craftshop_share_tab .cate ul li:last-child{margin-right:0;}
+	#craftshop_share_tab .cate ul li a{display:inline-block;height:100%;text-align:center;font-size:12px;font-weight:bold;color:#222;display:inline-block;}
+	#craftshop_share_tab .cate ul li a.on{color:#a40f0f;background:url(/images/app/order/bg_tab_on.png) center 16px repeat-x; -webkit-background-size:1px 2px;
+	background-size:1px 2px;}
+	#craftshop_share_tab .content{margin:0 auto;display:none;}
+	#craftshop_share_tab .text_none p.img{width:72px;height:81px;display:block;margin:50px auto 0;}
+		#craftshop_share_tab .text_none p.img img{width:100%;}
+	#craftshop_share_tab .text_none p.title{font-size:12px;font-weight:bold;color:#222;text-align:center;padding-bottom:50px;}
+		#craftshop_share_tab .text_none p.title span{color:#a40f0f;}
+
+/* 제품상세페이지 - 설명 */
+#item_view_detail{padding:18px 10px;background:#efefef;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;}
+	#item_view_detail .view_detail{padding:15px;background:#fff;border:1px solid#dcdcdc;border-radius:3px;}
+	#item_view_detail .view_detail dl{border-bottom:1px solid #e3e3e3;padding:24px 0;}
+	#item_view_detail .view_detail dl:first-child{padding-top:0;}
+	#item_view_detail .view_detail dl:last-child{padding-bottom:0;border-bottom:0;}
+		#item_view_detail .view_detail dt{font-weight:bold;font-size:15px;color:#222;}
+		#item_view_detail .view_detail dd{font-size:12px;color:#404040;overflow:hidden;padding-top:10px;}
+		#item_view_detail .view_detail dd span.tit{height:100%;display:inline-block;float:left;}
+		#item_view_detail .view_detail dd span.cont{display:inline-block;float:left;padding-left:5px;}
+		#item_view_detail .view_detail a.btn_more{width:17px;display:block;margin:15px auto 0 auto;}
+
+
+/* 제품상세페이지 - 구매후기 */
+#item_view_comment_buy{background:#efefef;margin:13px 0;}
+	#item_view_comment_buy .item_comment_buy{border:1px solid#dcdcdc;border-radius:3px;background:#fff;}
+	#item_view_comment_buy a.btn_more{width:100%;height:42px;line-height:42px;border-bottom:1px solid #b5b5b5;display:inline-block;font-size:15px;color:#222;font-weight:bold;background:url(/images/app/main/bestitem/btn_more_comment.png) no-repeat 98% center;background-size:8px;}
+		#item_view_comment_buy a.btn_more span{display:inline-block;padding-left:16px;}
+	
+	#item_view_comment_buy ul{padding:0 9px;}
+		#item_view_comment_buy ul li{padding:18px 0;font-size:12px;color:#5f5f5f;position:relative;border-bottom:1px solid #eaeaea;}
+		#item_view_comment_buy ul li:last-child{border:0;}
+
+			#item_view_comment_buy ul li div.img{width:31px;height:31px;margin-right:8px;position:absolute;left:0;}
+				#item_view_comment_buy ul li div.img img{width:100%;height:100%;border-radius:50px;}
+			#item_view_comment_buy ul li div.name{font-size:12px;padding-left:40px;padding-right:90px;}
+				#item_view_comment_buy ul li div.name span{font-weight:bold;color:#222;display:block;word-break:break-all;}
+				#item_view_comment_buy ul li span.star{width:66px;height:12px;position:absolute;right:0;top:19px;display:inline-block;background:url(/images/app/main/icn_star.png) no-repeat left top;}
+				#item_view_comment_buy ul li span.star4{background-position:0 -12px;}
+				#item_view_comment_buy ul li span.star3{background-position:0 -24px;}
+				#item_view_comment_buy ul li span.star2{background-position:0 -36px;}
+				#item_view_comment_buy ul li span.star1{background-position:0 -48px;}
+				#item_view_comment_buy ul li span.star0{background-position:0 -60px;}
+
+				#item_view_comment_buy ul li div.text{padding-left:40px;margin-top:0;}
+	
+	#item_view_comment_buy ul li.reple_del p{width:46px;}
+		#item_view_comment_buy ul li.reple_del p img{width:100%;}
+	#item_view_comment_buy ul li.reple_del span{display:inline-block;padding-left:60px;position:absolute;top:30px;}
+		
+
+/* 제품상세페이지 - 한줄 흔적 남기기 */
+#item_view_comment{padding:10px;margin-bottom:40px;background:#efefef;border-top:1px solid #dcdcdc;}
+	#item_view_comment .item_comment{border:1px solid#dcdcdc;border-top-left-radius:3px;border-top-right-radius:3px;background:#fff;}
+	#item_view_comment a.btn_more{width:100%;height:42px;line-height:42px;border-bottom:1px solid #b5b5b5;display:inline-block;font-size:15px;color:#222;font-weight:bold;background:url(/images/app/main/bestitem/btn_more_comment.png) no-repeat 98% center;background-size:8px;}
+		#item_view_comment a.btn_more span{display:inline-block;padding-left:16px;}
+		
+
+/* 제품상세페이지- CRAFT SHOP */
+#item_view_shop{margin-top:13px;background:#fff;overflow:hidden;border:1px solid#dcdcdc;border-radius:3px;}
+	#item_view_shop div.top{height:42px;line-height:42px;padding:0 16px;background:#000 url(/images/app/main/bestitem/bg_top.png) no-repeat 98% center;background-size:8px;font-size:15px;color:#fff;font-weight:bold;}
+	
+	#item_view_shop dl{padding:12px 8px;position:relative;border-bottom:1px solid #e3e3e3;}
+		#item_view_shop dl dt{width:87px;height:59px;position:absolute;left:9px;top:12px;}
+			#item_view_shop dl dt img{width:100%;border:1px solid#e5e5e5;}
+		#item_view_shop dl dd.title{font-size:12px;color:#222;font-weight:bold;word-break:break-all;padding-left:100px;margin-top:10px;}
+		#item_view_shop dl dd.author{font-size:12px;color:#404040;padding-left:100px;margin-top:10px;}
+				#item_view_shop dl dd.author span{display:inline-block;}
+				#item_view_shop dl dd.author span.popularity{height:12px;line-height:12px;font-size:12px;color:#fff;background:#af3030;padding:2px 4px;border-radius:3px;}
+				#item_view_shop dl dd.author span.today_author{height:12px;line-height:12px;font-size:12px;color:#fff;background:#af3030;padding:2px 4px;border-radius:3px;}
+		#item_view_shop dl dd.text{font-size:12px;line-height:17px;color:#404040;padding:15px 0 0 100px;}
+
+	/* 제품상세페이지 - CRAFT SHOP thumbnail */
+	#item_view_shop ul.thumbnail{padding:14px 9px;overflow:hidden;text-align:center;max-width:1024px;margin:0 auto;}
+		#item_view_shop ul.thumbnail li{width:32%;float:left;margin-right:2%;}
+		#item_view_shop ul.thumbnail li:last-child{margin-right:0;}
+			#item_view_shop ul.thumbnail li img{width:100%;border:1px solid #e5e5e5;}
+	#item_view_shop p.btn_385more{text-align:right;margin:0 10px 10px 0;}
+		#item_view_shop p.btn_385more a{font-size:12px;color:#ababab;font-weight:bold;}
+			#item_view_shop p.btn_385more a span{font-size:10px;}
+
+	/* 제품상세페이지 - item박스 */
+	.top-swiper-container{overflow:hidden;}
+	ul.product_type1{overflow:hidden;}
+		ul.product_type1 li{width:49%;float:left;position:relative;margin:0 2% 2% 0;}
+		ul.product_type1 li:nth-child(2n){margin:0;}
+				ul.product_type1 li img{width:100%;}
+			ul.product_type1 li a{width:100%;height:100%;display:block;}
+			ul.product_type1 li span.sale{width:62px;height:52px;background:url(/images/app/common/icn_sale.png) no-repeat left top;background-size:cover;display:inline-block;position:absolute;left:1px;top:1px;}
+			ul.product_type1 li span.flag{width:50px;height:50px;background:url(/images/app/common/icn_flag_off.png) no-repeat left top;background-size:cover;display:inline-block;position:absolute;right:5px;top:5px;}
+			ul.product_type1 li span.flag.on{background:url(/images/app/common/icn_flag_on.png) no-repeat left top;background-size:cover;}
+			ul.product_type1 li p.soldout{width:100%;height:100%;position:absolute;left:0;top:0;display:none;}
+			ul.product_type1 li p.soldout.on{display:block;}
+				ul.product_type1 li p.soldout img{width:100%;}
+
+			ul.product_type1 li p.name{font-size:12px;color:#404040;font-weight:bold;margin-top:10px;}
+			ul.product_type1 li p.shop{font-size:11px;color:#727272;}
+
+	.img_silde{position:relative;padding-bottom:30px;}
+	.swiper-pagination{width:100%;padding-top:10px;}
+		.swiper-pagination-bullet{width:14px !important;height:14px !important;margin:0 5px;}
+		.swiper-pagination-bullet-active{background:#a40f0f !important;}
+
+
+/* 제품상세페이지 - 이 item과 함께 보는 추천 item */
+#item_view_more{padding:10px;}
+	#item_view_more h2.title{border-radius:3px;color:#222;font-weight:bold;margin-bottom:12px;}
+
+		#item_view_comment ul{padding:0 9px;}
+		#item_view_comment ul li{padding:18px 0;font-size:12px;color:#5f5f5f;position:relative;border-bottom:1px solid #eaeaea;}
+		#item_view_comment ul li:last-child{border:0;}
+
+			#item_view_comment ul li div.img{width:31px;height:31px;margin-right:8px;position:absolute;left:0;}
+				#item_view_comment ul li div.img img{width:100%;height:100%;border-radius:50px;}
+			#item_view_comment ul li div.name{font-size:12px;padding-left:40px;padding-right:85px;}
+				#item_view_comment ul li div.name span{font-weight:bold;color:#222;display:block;word-break:break-all;}
+			#item_view_comment ul li span.time{width:80px;position:absolute;right:10px;top:18px;display:inline-block;font-size:10px;color:#bcbcbc;}
+			
+			#item_view_comment ul li div.text{padding:0 10px 0 40px;}
+			#item_view_comment ul li p.btn_del{width:100%;text-align:right;}
+				#item_view_comment ul li p.btn_del a{height:12px;line-height:12px;font-size:10px;color:#fff;background:#b5b5b5;padding:2px 4px;border-radius:3px;}
+
+
+		/* 코멘트 없을때 */
+		ul li.first_comment{text-align:center;padding:50px 0;}
+			ul li.first_comment p.img{width:72px;height:81px;display:block;margin:0 auto 10px;}
+			ul li.first_comment p.title{font-size:12px;font-weight:bold;color:#222;}
+				ul li.first_comment p.title span{color:#a40f0f;}
+			ul li.first_comment p img{width:100%;}
+			ul li.first_comment a.btn_comment{margin-top:4px;padding:3px 5px;background:#a21d20;font-size:11px;color:#fff;display:inline-block;}
+				ul li.first_comment a.btn_comment span{font-size:5px;display:inline-block;padding-left:3px;}
+ 
+		/* 코멘트 답변 */
+		#item_view_comment ul li.reple{background:#f3f3f3;}
+			#item_view_comment ul li.reple div.img img{width:13px;height:13px;margin-left:23px;}
+			#item_view_comment ul li.reple div.name span{color:#a40f0f;}
+			#item_view_comment ul li.reple div.text{margin:5px 0 0 0;padding-right:10px;}
+
+		/* 코멘트 삭제 */
+		#item_view_comment ul li.reple_del p{width:31px;height:31px;margin-right:8px;}
+			#item_view_comment ul li.reple_del p img{width:100%;height:100%;}
+		#item_view_comment ul li.reple_del span{display:inline-block;padding-left:40px;position:absolute;top:25px;}
+		
+
+/* 제품상세페이지 - 댓글남기기 */
+.item_view_comment_write{width:100%;height:50px;background:#a1a1a1;position:fixed;left:0;bottom:0;z-index:1;}
+	.item_view_comment_write dl{padding:7px;text-align:center;}
+		.item_view_comment_write dt{width:93%;margin:0 auto;display:inline-block;}
+		.item_view_comment_write dd{display:inline-block;vertical-align:top;}
+			.item_view_comment_write dd img{max-width:35px;}
+		.item_view_comment_write dt .inp_write{width:98%;height:15px !important;border:0;padding:10px 1%;font-size:11px;color:#5f5f5f;border-radius:3px;background:#fff;}
+
+
+/* craftshop_view 플래그샵 */
+h2.h2title_craftshop{font-size:14px;color:#af3030;font-weight:bold;padding-top:16px;}
+h3.h3title_craftshop{font-size:14px;color:#222;font-weight:bold;padding:10px 0;}
+
+/* craftshop 플래그샵 POFF 소개 */
+#poff_info{padding:10px;}
+	#poff_info p.img{padding-top:11px;}
+		#poff_info p.img img{width:100%;}
+	#poff_info div.text{font-size:11px;color:#222;line-height:150%;}
+
+#poff_info table.poff_tb{width:100%;border:1px solid #e3e3e3;border-radius:3px;}
+	#poff_info table.poff_tb tr + tr th,
+	#poff_info table.poff_tb tr + tr td{border-top:1px solid #e3e3e3;}
+	#poff_info table.poff_tb tr th{width:32%;padding:10px 10px 10px 20px;font-size:11px;color:#222;font-weight:bold;text-align:left;background-color:#f6f6f6;border-top-left-radius:7px;border-bottom-left-radius:7px;}
+	#poff_info table.poff_tb tr + tr th{border-top-left-radius:0;}
+	#poff_info table.poff_tb tr td{width:68%;padding:10px 12px;padding-left:12px;line-height:15px;font-size:11px;color:#727272;text-align:left;}
+	#poff_info table.poff_tb tr td a{width:100%;display:inline-block;background:url(/images/app/event/icn_arrow.png) no-repeat right center;background-size:6px;font-size:11px;color:#727272;text-decoration:none;}
+
+
+/* SNS 공유 레이어 */
+	#layer_sns .popup_box{width:320px;height:200px;position:fixed;left:50%;top:20px;margin:0 0 0 -160px;background:#fff;border-radius:3px;} 
+	#layer_sns .popup_box .top{height:31px;line-height:31px;background:#a40f0f;text-align:center;font-size:13px;color:#fff;font-weight:bold;}
+	#layer_sns a.btn_close{width:12px;height:12px;display:inline-block;position:absolute;right:10px;top:10px;}
+	#layer_sns a.btn_close img{width:100%;}
+
+	/*#layer_sns ul{width:70%;overflow:hidden;margin:40px auto 30px;}
+	#layer_sns ul li{float:left;width:50%;text-align:center;margin-bottom:20px;}*/
+	#layer_sns ul{width:100%;overflow:hidden;}
+	#layer_sns ul li{float:left;width:100%;text-align:center;margin-bottom:20px;}
+	#layer_sns ul li a{display:inline-block;}
+	#layer_sns ul li a img{width:100%;max-width:50px;}
+	#layer_sns ul li a span{display:block;font-size:10px;color:#222;font-weight:bold;padding-top:5px;}
+	/* yong mod */
+	#layer_sns ul li p img{width:72px;height:81px;display:block;margin:20px auto 10px;}
+	#layer_sns ul li p span{font-size:10px;display:inline-block;padding-left:3px;}
+
+/* SNS 공유 레이어_share 페이지 */
+	#layer_sns_share .popup_box{width:320px;height:275px;position:fixed;left:50%;top:20px;margin:0 0 0 -160px;background:#fff;border-radius:3px;}
+	#layer_sns_share .popup_box .top{height:31px;line-height:31px;background:#a40f0f;text-align:center;font-size:13px;color:#fff;font-weight:bold;}
+	#layer_sns_share a.btn_close{width:12px;height:12px;display:inline-block;position:absolute;right:10px;top:10px;}
+	#layer_sns_share a.btn_close img{width:100%;}
+	#layer_sns_share ul{width:70%;overflow:hidden;margin:40px auto 30px;}
+	#layer_sns_share ul li{float:left;width:50%;text-align:center;margin-bottom:20px;}
+	#layer_sns_share ul li a{display:inline-block;}
+	#layer_sns_share ul li a img{width:100%;max-width:50px;}
+	#layer_sns_share ul li a span{display:block;font-size:10px;color:#222;font-weight:bold;padding-top:5px;}
+
+
+
+/* 미디어쿼리 */
+@media only all and (max-width:640px){
+	/* 등록코멘트 */
+	.item_view_comment_write dt{width:90%;}
+
+	/* 추천item */
+	ul.product_type1 li span.sale{width:42px;height:37px;}
+	ul.product_type1 li span.flag{width:32px;height:32px}
+}
+
+@media only all and (max-width:400px){
+	/* 등록코멘트 */
+	.item_view_comment_write dt{width:85%;}
+
+	/* 추천item */
+	ul.product_type1 li span.sale{width:37px;height:32px;}
+	ul.product_type1 li span.flag{width:25px;height:25px}
+}

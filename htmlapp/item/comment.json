@@ -1,0 +1,98 @@
+﻿{
+	"totalPost":"50",
+	"viewPost":"10",
+	"page":"1",
+	"list":[
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana2",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false",
+			"isDel": "true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana3",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"1",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana4",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"3",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false",
+			"isReple": "true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana5",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"3",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana6",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"5",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana7",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"3",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"true",
+			"isReple": "true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"2",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana8",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"4",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"true"
+		},
+		{
+			"id":"id",
+			"profile":"/images/app/main/photo.jpg",
+			"userId":"yellobanana9",
+			"content":"정말 예쁘긴 한데 정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데정말 예쁘긴 한데",
+			"starNum":"1",
+			"date":"2015-12-17 15:25",
+			"deleteBtn":"false"
+		}
+	]
+}

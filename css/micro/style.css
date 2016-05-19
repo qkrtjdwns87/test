@@ -1,0 +1,97 @@
+@charset "utf-8";
+img{width:100%;}
+a{display:inline-block;}
+
+/* layout 레이아웃 */
+#wrap{width:100%;border-top:3px solid #990d0d;}
+.content{max-width:980px;height:100%;margin:0 auto;position:relative;}
+div.section_bg img{display:block;}
+div.section_bg img.img640{display:none;}
+.web_text{display:block;}
+.m_text{display:none;}
+
+/* section1 */
+#section1{position:relative;background:url(/images/micro/bg_section1.jpg) no-repeat center top;}
+	#section1 h1{width:53.67%;position:absolute;left:23.2653%;top:21.34%;}
+	#section1 a.btn_contact{width:17.245%;position:absolute;right:0;top:4.5855%;}
+	#section1 ul{width:75.9%;height:11%;overflow:hidden;position:absolute;left:12.45%;top:73.545%;}
+		#section1 ul li{width:32.258%;margin-right:1.075%;float:left;}
+
+/* section2 */
+#section2 ul{width:100%;overflow:hidden;}
+	#section2 ul li{width:50%;float:left;position:relative;}
+		#section2 ul li a{width:39.38%;position:absolute;left:28.16%;top:70.357%;}
+
+/* section3 */
+#section3{position:relative;background:url(/images/micro/bg_section3.jpg) no-repeat center top;}
+
+/* section4 */
+#section4 a{width:26.63%;position:absolute;left:36.63%;top:85.125%;}
+
+/* section5 */
+#section5{position:relative;background:#a40f0f;}
+	#section5 ul{width:75.9%;height:17.2%;overflow:hidden;position:absolute;left:12.45%;top:59.885%;}
+		#section5 ul li{width:32.258%;margin-right:1.075%;float:left;}
+
+/* footer */
+#footer{background:#222;text-align:center;}
+	#footer p{font-size:12px;color:#6a6a6a;}
+	#footer p.copyright{padding:43px 0 18px 0;}
+	#footer p.address{padding:0 0 44px 0;}
+	#footer p a{color:#6a6a6a;}
+
+/* layer */
+.pop{position:absolute;top:0;left:0;width:100%;height:100%;display:none;}
+.pop .bg{position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:.5;filter:alpha(opacity=50);}
+
+/* 메일보내기 */
+#layer_mail .popup_box{width:622px;height:542px;position:fixed;left:50%;top:50%;margin:-275px 0 0 -315px;border:4px solid #a40f0f;background:#f1f1f1;}
+	#layer_mail p.btn_close{position:absolute;right:0;top:0;}
+	#layer_mail .contents{max-width:502px;padding:30px 60px;font-size:13px;color:#555555;}
+		#layer_mail p.mailto{font-size:15px;font-weight:bold;}
+			#layer_mail p.mailto span{color:#a40f0f;display:inline-block;padding:0 10px 10px 0;}
+		#layer_mail ul{width:100%;overflow:hidden;}
+			#layer_mail ul li{width:50%;float:left;}
+			#layer_mail .input_style1{width:92%;height:24px;line-height:20px;vertical-align: middle;padding:4px 0 0 5px;font-size:14px;color:#7b7b7b;background:#fff;border:1px solid #e1e1e1;}
+			#layer_mail .input_style2{width:92%;height:24px;line-height:20px;vertical-align: middle;padding:4px 0 0 5px;font-size:14px;color:#7b7b7b;background:#fff;border:1px solid #e1e1e1;margin-left:5%;}
+		#layer_mail div.pp textarea{width:95.2%;height:330px;line-height:20px;padding:10px;margin-top:5px;border:1px solid #e1e1e1;background:#fff;overflow-y:auto;letter-spacing:-1px;color:#555;}
+	#layer_mail a.btn_mail{width:261px;margin:20px auto 0;display:block;}
+
+/* 로딩레이어 */
+#layer_loading .popup_box{width:32px;height:32px;position:fixed;left:50%;top:50%;margin:-16px 0 0 -16px;}
+	#layer_loading .popup_box img{width:32px;height:32px;}
+@media only all and (max-width:640px){
+	/* layout */
+	div.section_bg img{display:none;}
+	div.section_bg img.img640{display:block;}
+	.web_text{display:none;}
+	.m_text{display:block;}
+	
+	/* section1 */
+	#section1 a.btn_contact{width:31.5625%;position:absolute;right:3.125%;top:3.84%;}
+	#section1 ul{width:51.875%;height:auto;overflow:hidden;position:absolute;left:24.0625%;top:52%;}
+		#section1 ul li{width:100%;margin-right:0;margin-bottom:1.4771%;float:none;}
+
+	/* section4 */
+	#section4 a{width:47.34375%;position:absolute;left:26.25%;top:81.081%;}
+	
+	/* section5 */
+	#section5 ul{width:51.875%;height:auto;overflow:hidden;position:absolute;left:24.0625%;top:38%;}
+		#section5 ul li{width:100%;margin-right:0;margin-bottom:2%;float:none;}
+	
+	/* footer */
+	#footer{padding:45px 10px;}
+	#footer p{font-size:12px;}
+	#footer p.copyright{padding:0 0 14px 0;}
+	#footer p.address{padding:14px 0 0 0;}
+
+	/* layer */
+	#layer_mail .popup_box{width:90%;height:450px;left:4%;top:50%;margin:-225px 0 0 0;}
+		#layer_mail .contents{padding:20px;font-size:12px;}
+		#layer_mail ul li{width:100%;float:none;}
+		#layer_mail .input_style1{width:98%;font-size:12px;margin-bottom:5px;}
+		#layer_mail .input_style2{width:98%;margin-left:0;font-size:12px;}
+		#layer_mail div.pp{height:230px;}
+		#layer_mail a.btn_mail{margin:14px auto 0;}
+		#layer_mail a.btn_mail{width:200px;}
+}

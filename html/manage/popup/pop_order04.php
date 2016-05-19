@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CIRCUS ADMIN</title>
+<link rel="stylesheet" type="text/css" href="/css/adm/common.css" />
+<link rel="stylesheet" type="text/css" href="/css/adm/style.css" />
+</head>
+<body>
+
+<!-- popup -->
+<div id="popup">
+	
+	<table class="write1 mg_t10">
+		<colgroup><col width="15%" /><col width="35%" /><col width="15%" /><col width="35%" /></colgroup>
+		<tbody>
+			<tr>
+				<th>주문번호</th>
+				<td>201512312</td>
+				<th>주문일시</th>
+				<td>2016-02-05 22:11</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<table class="write2 mg_t10">
+		<thead>
+			<tr>
+				<th  colspan="6">주문상세정보
+					<a href="" class="btn1 fl_r">주문서 인쇄</a><a href="" class="btn1 fl_r">거래증빙 인쇄</a>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="tab1">
+				<td><a href="">주문 정보</a></td>
+				<td><a href="">결제 정보</a></td>
+				<td><a href="">주문자 정보</a></td>
+				<td class="on"><a href="">수령인 정보</a></td>
+				<td><a href="">관리자 메모</a></td>
+				<td><a href="">변경내역</a></td>
+			</tr>
+		<tbody>
+	</table>
+		
+	<table class="write1 mg_t10">
+		<colgroup><col width="15%" /><col width="35%" /><col width="15%" /><col width="35%" /></colgroup>
+		<thead>
+			<tr>
+				<th colspan="4">수령인 정보</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>수령인명</th>
+				<td><input type="text" id="" class="inp_sty40" /></td>
+				<th>연락처</th>
+				<td><input type="text" id="" class="inp_sty40" /> <span class="ex tdline">* 숫자로만 입력</span></td>
+			</tr>
+			<tr>
+				<th rowspan="3">배송지</th>
+				<td colspan="3"><input type="text" id="" class="inp_sty10" /><a href="" class="btn1">우편번호 찾기</a></td>
+			</tr>
+			<tr>
+				<td colspan="3" class="bo_tn pd_tn"><input type="text" id="" class="inp_sty80" /></td>
+			</tr>
+			<tr>
+				<td colspan="3" class="bo_tn pd_tn"><input type="text" id="" class="inp_sty80" /></td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+<!-- //popup -->
+
+</body>
+</html>

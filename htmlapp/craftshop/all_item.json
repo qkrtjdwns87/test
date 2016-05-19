@@ -1,0 +1,67 @@
+﻿{
+	"totalPost":"50",
+	"viewPost":"6",
+	"page":"1",
+	"list":[
+		{
+			"id":"id",
+			"sale":"false",
+			"flag":"true",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"true",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop1"
+		},
+		{
+			"id":"id",
+			"sale":"true",
+			"flag":"true",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"false",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop2"
+		},
+		{
+			"id":"id",
+			"sale":"false",
+			"flag":"false",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"true",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop3"
+		},
+		{
+			"id":"id",
+			"sale":"true",
+			"flag":"true",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"true",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop"
+		},
+		{
+			"id":"id",
+			"sale":"true",
+			"flag":"true",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"true",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop4"
+		},
+		{
+			"id":"id",
+			"sale":"true",
+			"flag":"true",
+			"link":"link1",
+			"thumb":"/images/app/main/sample0.jpg",
+			"soldout":"true",
+			"title":"Winter Holiday Clutch",
+			"shop":"Lovely Shop5"
+		}
+	]
+}
